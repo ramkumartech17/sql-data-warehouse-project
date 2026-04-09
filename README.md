@@ -24,6 +24,6 @@ Develop SQL-based analytics to deliver detailed insights into:
 These insights empower stakeholders with key business metrics, enabling strategic decision making.
 ---
 ## License
-This project is licensed under the [MIT License]. You are free to use, modify, and share this project with proper attribution.
+This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
 ## About Me
 Hi there! I’m **Ram Kumar**. I’m an IT professional, working as a Data Engineer. I have 18+ years of experience in IT. 
