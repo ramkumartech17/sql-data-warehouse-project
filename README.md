@@ -26,4 +26,4 @@ These insights empower stakeholders with key business metrics, enabling strategi
 ## License
 This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
 ## About Me
-Hi there! I’m **Ram Kumar**. I’m an IT professional, working as a Data Engineer. I have 18+ years of experience in IT. 
+Hi there! I’m **Ram Kumar**. I’m an IT professional, working as a Data Engineer. I have 14+ years of experience in Data Analytics, Data Engineering. 
