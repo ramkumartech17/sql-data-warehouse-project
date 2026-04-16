@@ -1,3 +1,23 @@
+# Data warehouse and Analytics Project | End-to-End ETL Solution
+Welcome to the **Data Warehouse Project** repository!
+This project demonstrates the design and implementation of a scalable SQL-based Data Warehouse solution, built using real-world ETL and data modeling principles.
+
+It reflects practical Data Engineering capabilities including data ingestion, transformation and modeling. Designed as a portfolio project highlights industry best practices in data engineering.
+
+---
+## Business Problem
+Organizations often struggle with:
+
+- Fragmented data across systems
+- Slow and inconsistent reporting
+- Lack of a centralized analytics layer
+
+
+
+
+---
+
+---
 # Data warehouse and Analytics Project
 Welcome to the **Data Warehouse and Analytics Project** repository!
 This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project highlights industry best practices in data engineering and analytics.
