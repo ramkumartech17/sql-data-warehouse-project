@@ -1,4 +1,4 @@
-# Data warehouse and Analytics Project | End-to-End ETL Solution
+# Data Warehouse Project | End-to-End ETL Solution
 Welcome to the **Data Warehouse Project** repository!
 This project demonstrates the design and implementation of a scalable SQL-based Data Warehouse solution, built using real-world ETL and data modeling principles.
 
