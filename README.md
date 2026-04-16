@@ -12,15 +12,21 @@ Organizations often struggle with:
 - Slow and inconsistent reporting
 - Lack of a centralized analytics layer
 
+## Objective: 
+Build a centralized Data Warehouse to:
+
+- Consolidate raw data
+- Keep latest data and remove historical unwanted data
+- Enable fast analytical queries
+- Support business decision-making
+
+---
+## Solution Architecture
+
 
 
 
 ---
-
----
-# Data warehouse and Analytics Project
-Welcome to the **Data Warehouse and Analytics Project** repository!
-This project demonstrates a comprehensive data warehousing and analytics solution, from building a data warehouse to generating actionable insights. Designed as a portfolio project highlights industry best practices in data engineering and analytics.
 
 ---
 ## Project Requirements
