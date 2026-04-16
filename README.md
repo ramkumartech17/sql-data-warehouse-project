@@ -100,6 +100,7 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 
 ## Connect With Me
 **Ram Kumar**
+
 Data Engineer | SQL | ADF | PySpark | Databricks | PowerBI
 
 <LinkedIn> 
