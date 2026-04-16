@@ -21,33 +21,46 @@ Build a centralized Data Warehouse to:
 - Support business decision-making
 
 ---
-## Solution Architecture
-
-
-
-
----
-
----
-## Project Requirements
-### Building the Data Warehouse (Data Engineering)
-### Objective
-Develop a modern data warehouse using SQL Server to consolidate sales data, enabling analytical reporting and informed decision-making.
 ### Specifications
 -	**Data Sources**: Import data from two source systems (ERP and CRM) provided as CSV files.
 -	**Data Quality**: Cleanse and resolve data quality issues prior to analysis.
 -	**Integration**: Combine both sources into a single, user-friendly data model designed for analytical queries.
 -	**Scope**: Fous on te latest dataset only; historization of data is not required.
 -	**Documentation**: Provide clear documentation of the data model to support both business stakeholders and analytics teams.
----
-### BI: Analytics & Reporting (Data Analytics)
 
-### Objective
-Develop SQL-based analytics to deliver detailed insights into:
-- **Customer Behavior**
-- **Product Performance**
-- **Sales Trends**
-These insights empower stakeholders with key business metrics, enabling strategic decision making.
+---
+## Solution Architecture
+### Layered Data Architecture (Medallion Architecture) ###
+![Data Architecture](images/data_architecture.png)
+
+### ETL Overview
+**1. Data Ingestion (Bronze Layer)**
+- Raw data loaded into staging tables
+- No transformations applied
+  
+**2. Data Transformation (Silver Layer)**
+- Data cleansing (null handling, duplicates removal)
+- Business rule implementation
+- Data enrichment
+
+**3. Data Warehouse Loading (Gold Layer)**
+- Fact & dimension tables populated
+- Referential integrity maintained
+
+### ETL Task Roadmap ###
+![ETL Task Details](images/ETL_roadmap.png)
+
+### Key Design Principles: ###
+- Separation of concerns (raw vs processed data)
+- Scalable ETL design
+- Optimized query performance
+
+
+
+---
+
+---
+)
 ---
 ## License
 This project is licensed under the [MIT License](LICENSE). You are free to use, modify, and share this project with proper attribution.
