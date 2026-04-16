@@ -50,8 +50,10 @@ Build a centralized Data Warehouse to:
 ## ETL Task Roadmap 
 ![ETL Task Details](images/ETL_roadmap.png)
 
+
 ---
 ## Tech Stack: 
+
 - SQL Server
 - T-SQL
 - Data Modeling (Star Schema)
@@ -67,15 +69,17 @@ Build a centralized Data Warehouse to:
 
 **/tests** &nbsp;&nbsp;&nbsp;SQL scripts for quality checks (Silver & Gold Layers)
 
+
 ---
-##How to Run
+## How to Run
+
 1. Create database in SQL Server
 2. Execute Bronze Layer scripts
 3. Execute Silver Layer scripts
 4. Execute Gold Layer scripts to Load fact and dimension tables
 
 ---
-##Key Highlights
+## Key Highlights
 
 -- End-to-end Data Warehouse implementation
 -- Real-world ETL pipeline design
@@ -84,7 +88,7 @@ Build a centralized Data Warehouse to:
 -- Performance optimization techniques
 
 ---
-##Future Enhancements
+## Future Enhancements
 - Azure Data Factory pipeline integration
 - Databricks (PySpark) implementation
 - Power BI dashboard for visualization
